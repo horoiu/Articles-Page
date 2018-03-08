@@ -59,7 +59,7 @@ window.addEventListener('load', function() {
     mainButton.addEventListener("click", mainButtonClicked);
 
     function mainButtonClicked() {
-        window.location.href = "https://preview.c9users.io/horoiu/homework1/Homework's/07-OOP/pages/articles.html";
+        window.location.href = "https://rawgit.com/horoiu/Articles-Page/master/pages/articles.html";
     }
 
 
@@ -75,7 +75,7 @@ window.addEventListener('load', function() {
         }
         else {
             id = parseInt(id) - 1;
-            document.location.replace("https://preview.c9users.io/horoiu/homework1/Homework's/07-OOP/pages/article.html?id="+id);
+            document.location.replace("https://rawgit.com/horoiu/Articles-Page/master/pages/article.html?id="+id);
         }
     }
 
@@ -92,7 +92,7 @@ window.addEventListener('load', function() {
         }
         else {
             id = parseInt(id) + 1;
-            document.location.replace("https://preview.c9users.io/horoiu/homework1/Homework's/07-OOP/pages/article.html?id="+id);
+            document.location.replace("https://rawgit.com/horoiu/Articles-Page/master/pages/article.html?id="+id);
         }
     }
 

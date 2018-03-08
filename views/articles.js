@@ -59,7 +59,7 @@ window.addEventListener('load', function() {
 
     let viewArticle = (click) => {
         let id = click.path[0].id || click.path[1].id;
-        window.location.href = "https://preview.c9users.io/horoiu/homework1/Homework's/07-OOP/pages/article.html?id="+id;
+        window.location.href = ("https://rawgit.com/horoiu/Articles-Page/master/pages/article.html?id="+id);
         };
 
 
